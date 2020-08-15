@@ -1,0 +1,42 @@
+{
+    "name": "leuverink/blade-shape-divider",
+    "description": "A blade component port of shapedivider.app",
+    "keywords": [
+        "blade-shape-divider"
+    ],
+    "homepage": "https://github.com/gwleuverink/blade-shape-divider",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Willem Leuverink",
+            "email": "willem@leuver.ink",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.2.5",
+        "illuminate/support": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Leuverink\\BladeShapeDivider\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Leuverink\\BladeShapeDivider\\Tests\\": "tests"
+        }
+    },
+
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Leuverink\\BladeShapeDivider\\BladeShapeDividerServiceProvider"
+            ]
+        }
+    }
+}
