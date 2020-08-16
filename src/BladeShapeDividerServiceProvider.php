@@ -8,21 +8,13 @@ use Leuverink\BladeShapeDivider\ShapeDivider;
 
 class BladeShapeDividerServiceProvider extends ServiceProvider
 {
-    /**
-     * Bootstrap the application services.
-     */
     public function boot()
     {
-        $this->app['view']->addNamespace('shape-divider', __DIR__ . '/../components');
+        // Register the template directory
+        $viewPath = realpath(__DIR__ . '/../components');
+        $this->app['view']->addNamespace('shape-divider', $viewPath);
 
+        // Register x-shape-divider component
         Blade::component('shape-divider', ShapeDivider::class);
-    }
-
-    /**
-     * Register the application services.
-     */
-    public function register()
-    {
-        //
     }
 }
