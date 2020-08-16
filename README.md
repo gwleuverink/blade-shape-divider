@@ -58,9 +58,9 @@ Component props have the following defaults. If your shape uses any of the defau
 |---|---|---|---|---|
 | shape | string | `null` (required) | waves, waves-opacity, curve, curve-asymmetrical, triangle, triangle-asymmetrical, tilt, arrow, split & book | `"shape='waves"` |
 | fill | `string` | `currentColor` | Accepts any valid color code. Inherits font color by default | `fill="rgba(255, 138, 0, 0.7)"` |
-| flip | boolean | `false` | `true|false` | `:flip="true"` |
-| invert | boolean | `false` | `true|false` | `:invert="true"` |
-| position | string | `top` | `top|bottom` | `position="bottom"` |
+| flip | boolean | `false` | `true\|false` | `:flip="true"` |
+| invert | boolean | `false` | `true\|false` | `:invert="true"` |
+| position | string | `top` | `top\|bottom` | `position="bottom"` |
 | height | string | `150px` | - | `height="200px"` |
 | width | string | `100%` | - | `width="260%"` |
 
