@@ -1,7 +1,5 @@
-<div style="position: absolute; top: 0; left: 0; width: 100%; overflow: hidden; line-height: 0; top: 0; opacity: .4;">
     ![You could have one of these on your site without breaking a sweat. Ain't that tasty?](./.github/assets/readme-top-divider.svg?raw=true&sanitize=true "Optional Title")
-</div>
-<br /><br/><br />
+/<br /><br/><br />
 
 # Blade shape divider
 
