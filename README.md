@@ -1,11 +1,11 @@
-![You could have one of these on your site without breaking a sweat. Ain't that tasty?](./.github/assets/readme-top-divider.svg?raw=true&sanitize=true "Optional Title")
+![Top readme divider](./.github/assets/readme-top-divider.svg?raw=true&sanitize=true "Beautiful full width shape dividers without breaking a sweat. Ain't that tasty?")
 
 # Blade shape divider
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/leuverink/blade-shape-divider.svg?style=flat-square)](https://packagist.org/packages/leuverink/blade-shape-divider)
 [![Total Downloads](https://img.shields.io/packagist/dt/leuverink/blade-shape-divider.svg?style=flat-square)](https://packagist.org/packages/leuverink/blade-shape-divider)
 
-A port of [shapedivider.app](shapedivider.app) for Laravel Blade
+A complete port of [shapedivider.app](shapedivider.app) for Laravel Blade
 
 ## Installation
 Laravel 7.0 or higher is required.
