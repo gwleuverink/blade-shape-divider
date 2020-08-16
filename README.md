@@ -18,19 +18,19 @@ A port of [shapedivider.app](shapedivider.app) for Laravel Blade
 Laravel 7.0 or higher is required.
 You can install the package via composer:
 
-```bash
+``` bash
 composer require leuverink/blade-shape-divider
 ```
 
 ## Usage
 
 ``` html
-<x-shape-divider type="waves" />
+<x-shape-divider shape="waves" />
 ```
 *Just like the original, this component needs to be in a container with `position: relative` in order to work properly.*
 
 ### Customization
-You may use any of the shape divider types:
+You may use any of these divider shapes:
 
 `waves`, `waves-opacity`, `curve`, `curve-asymmetrical`, `triangle`, `triangle-asymmetrical`, `tilt`, `arrow`, `split` & `book`
 
@@ -38,7 +38,7 @@ Head over to [shapedivider.app](shapedivider.app) and create a shape you like. S
 
 ``` html
 <x-shape-divider
-    type="waves-opacity"
+    shape="waves-opacity"
     fill="#EEE"
     :flip="true"
     :invert="true"
@@ -53,17 +53,17 @@ You may pass any valid color code as the `fill` prop. By default the fill is set
 
 ``` html
 <!-- Use the text color text-blue-600 to fill the divider -->
-<x-shape-divider type="waves" class="text-blue-600" />
+<x-shape-divider shape="waves" class="text-blue-600" />
 
 <!-- Setting the fill color overrides the text color inheritance -->
-<x-shape-divider type="waves" fill="#3182CE" />
+<x-shape-divider shape="waves" fill="#3182CE" />
 ```
 
 ### Prop defaults
-Component props have the following defaults. If your shape uses any of the defaults the don't have to be passed as props.
+Component props have the following defaults. If your shape uses any of the defaults they don't have to be passed as props.
 | name | type | default | available options | example value |
 |---|---|---|---|---|
-| type | string | `null` (required) | waves, waves-opacity, curve, curve-asymmetrical, triangle, triangle-asymmetrical, tilt, arrow, split & book | `"type='waves"` |
+| shape | string | `null` (required) | waves, waves-opacity, curve, curve-asymmetrical, triangle, triangle-asymmetrical, tilt, arrow, split & book | `"shape='waves"` |
 | fill | `string` | `currentColor` | Accepts any valid color code. Inherits font color by default | `fill="rgba(255, 138, 0, 0.7)"` |
 | flip | boolean | `false` | `true|false` | `:flip="true"` |
 | invert | boolean | `false` | `true|false` | `:invert="true"` |
@@ -86,8 +86,8 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 If you discover any security related issues, please email willem@leuver.ink instead of using the issue tracker.
 
 ## Credits
-- [True Style Design (creators of shapedivider.app)](truestyledesign.co.uk)
-- [Willem Leuverink](https://github.com/leuverink)
+- [True Style Design (creators of shapedivider.app)](https://truestyledesign.co.uk)
+- [Willem Leuverink](https://github.com/gwleuverink)
 - [All Contributors](../../contributors)
 
 ## License

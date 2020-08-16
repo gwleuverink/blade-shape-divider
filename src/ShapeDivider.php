@@ -6,7 +6,7 @@ use Illuminate\View\Component;
 
 class ShapeDivider extends Component
 {
-    public string $type;
+    public string $shape;
 
     public string $fill;
     public bool $flip;
@@ -16,7 +16,7 @@ class ShapeDivider extends Component
     public string $width;
 
     public function __construct(
-        string $type,
+        string $shape,
         string $fill = 'currentColor',
         bool $flip = false,
         bool $invert = false,
@@ -24,7 +24,7 @@ class ShapeDivider extends Component
         string $height = '150px',
         string $width = '100%'
     ) {
-        $this->type = $type;
+        $this->shape = $shape;
         $this->fill = $fill;
         $this->flip = $flip;
         $this->invert = $invert;
@@ -35,6 +35,6 @@ class ShapeDivider extends Component
 
     public function render()
     {
-        return view("shape-divider::$this->type");
+        return view("shape-divider::$this->shape");
     }
 }
