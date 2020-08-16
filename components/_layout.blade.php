@@ -4,14 +4,14 @@
     {{ !$invert && $position === 'bottom' ? 'transform: rotate(180deg);' : null }}
     {{ $position === 'bottom' ? 'bottom: 0;' : 'top: 0;' }}"
     {{ $attributes->get('class')}} >
-    <svg style="
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none"
+        style="
             position: relative; display: block;
             {{ $flip ? 'transform: rotateY(180deg);' : null }}
             {{ "width: calc($width + 1.3px);" }}
             {{ "height: $height;" }}
         "
-        fill="{{ $fill }}"
-        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none" >
+        fill="{{ $fill }}" >
 
         @yield('svg-content')
 
