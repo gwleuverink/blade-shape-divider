@@ -30,8 +30,8 @@ Head over to [shapedivider.app](https://shapedivider.app) and create a shape you
 
 ``` html
 <x-shape-divider
-    shape="curves"
-    fill="#EEE"
+    shape="curves-asymmetrical"
+    fill="#FFF"
     :flip="true"
     :invert="true"
     position="bottom"
