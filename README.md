@@ -1,5 +1,4 @@
-    ![You could have one of these on your site without breaking a sweat. Ain't that tasty?](./.github/assets/readme-top-divider.svg?raw=true&sanitize=true "Optional Title")
-/<br /><br/><br />
+![You could have one of these on your site without breaking a sweat. Ain't that tasty?](./.github/assets/readme-top-divider.svg?raw=true&sanitize=true "Optional Title")
 
 # Blade shape divider
 
