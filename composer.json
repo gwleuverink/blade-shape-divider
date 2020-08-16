@@ -16,7 +16,11 @@
     ],
     "require": {
         "php": "^7.2.5",
-        "illuminate/support": "^7.0"
+        "illuminate/support": "^7.0",
+        "illuminate/view": "^7.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^5.3"
     },
     "autoload": {
         "psr-4": {
