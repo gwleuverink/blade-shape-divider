@@ -15,7 +15,7 @@
 A port of [shapedivider.app](shapedivider.app) for Laravel Blade
 
 ## Installation
-
+Laravel 7.0 or higher is required.
 You can install the package via composer:
 
 ```bash
