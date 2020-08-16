@@ -12,7 +12,6 @@ class ShapeDivider extends Component
     public bool $flip;
     public bool $invert;
     public string $position;
-
     public string $height;
     public string $width;
 
@@ -26,12 +25,10 @@ class ShapeDivider extends Component
         string $width = '100%'
     ) {
         $this->type = $type;
-
         $this->fill = $fill;
         $this->flip = $flip;
         $this->invert = $invert;
         $this->position = $position;
-
         $this->height = $height;
         $this->width = $width;
     }
