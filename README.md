@@ -5,7 +5,7 @@
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/leuverink/blade-shape-divider.svg?style=flat-square)](https://packagist.org/packages/leuverink/blade-shape-divider)
 [![Total Downloads](https://img.shields.io/packagist/dt/leuverink/blade-shape-divider.svg?style=flat-square)](https://packagist.org/packages/leuverink/blade-shape-divider)
 
-A complete port of [shapedivider.app](shapedivider.app) for Laravel Blade
+A complete port of [shapedivider.app](https://shapedivider.app) for Laravel Blade
 
 ## Installation
 Laravel 7.0 or higher is required.
@@ -23,15 +23,14 @@ composer require leuverink/blade-shape-divider
 *Just like the original, this component needs to be in a container with `position: relative` in order to work properly.*
 
 ### Customization
-You may use any of these divider shapes:
 
-`waves`, `waves-opacity`, `curve`, `curve-asymmetrical`, `triangle`, `triangle-asymmetrical`, `tilt`, `arrow`, `split` & `book`
+Head over to [shapedivider.app](https://shapedivider.app) and create a shape you like. Settings can be passed as props. When you're happy with the shape divider you created, simply copy over it's settings like the example below.
 
-Head over to [shapedivider.app](shapedivider.app) and create a shape you like. Settings can be passed as props. When you're happy with the shape divider you created, simply copy over it's settings like the example below.
+![shapedivider.app screenshot](./.github/assets/configuratior-schreenshot.png?raw=true "Simply copy over these settings")
 
 ``` html
 <x-shape-divider
-    shape="waves-opacity"
+    shape="curves"
     fill="#EEE"
     :flip="true"
     :invert="true"
@@ -40,6 +39,10 @@ Head over to [shapedivider.app](shapedivider.app) and create a shape you like. S
     width="150%"
 />
 ```
+
+You may use any of these divider shapes:
+
+`waves`, `waves-opacity`, `curve`, `curve-asymmetrical`, `triangle`, `triangle-asymmetrical`, `tilt`, `arrow`, `split` & `book`
 
 ### Changing divider color
 You may pass any valid color code as the `fill` prop. By default the fill is set to `currentColor`, which means the divider inherits the current font color by default. If you want to use a css class to provide the fill color you may do so:
@@ -70,7 +73,7 @@ Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recen
 
 ## Contributing
 
-This port should be pretty much complete. Any new features not available in the original [shapedivider.app](shapedivider.app) fall outside the scope of this project and will not be merged.
+This port should be pretty much complete. Any new features not available in the original [shapedivider.app](https://shapedivider.app) fall outside the scope of this project and will not be merged.
 Improvements to the API will be considered.
 Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
