@@ -73,7 +73,7 @@ Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recen
 ## Contributing
 
 This port should be pretty much complete. Any new features not available in the original [shapedivider.app](https://shapedivider.app) fall outside the scope of this project and will not be merged.
-Improvements to the API will be considered.
+Improvements to the API & bugfixes are very welcome :)
 Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ### Security
