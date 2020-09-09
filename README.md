@@ -3,7 +3,6 @@
 # Blade shape divider
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/leuverink/blade-shape-divider.svg?style=flat-square)](https://packagist.org/packages/leuverink/blade-shape-divider)
-[![Total Downloads](https://img.shields.io/packagist/dt/leuverink/blade-shape-divider.svg?style=flat-square)](https://packagist.org/packages/leuverink/blade-shape-divider)
 
 A complete port of [shapedivider.app](https://shapedivider.app) for Laravel Blade
 
@@ -59,7 +58,7 @@ You may pass any valid color code as the `fill` prop. By default the fill is set
 Component props have the following defaults. If your shape uses any of the defaults they don't have to be passed as props.
 | name | type | default | available options | example value |
 |---|---|---|---|---|
-| shape | string | `null` (required) | waves, waves-opacity, curve, curve-asymmetrical, triangle, triangle-asymmetrical, tilt, arrow, split & book | `"shape='waves"` |
+| shape | string | `null` (required) | waves, waves-opacity, curve, curve-asymmetrical, triangle, triangle-asymmetrical, tilt, arrow, split & book | `shape="waves"` |
 | fill | `string` | `currentColor` | Accepts any valid color code. Inherits font color by default | `fill="rgba(255, 138, 0, 0.7)"` |
 | flip | boolean | `false` | `true\|false` | `:flip="true"` |
 | invert | boolean | `false` | `true\|false` | `:invert="true"` |
@@ -74,7 +73,7 @@ Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recen
 ## Contributing
 
 This port should be pretty much complete. Any new features not available in the original [shapedivider.app](https://shapedivider.app) fall outside the scope of this project and will not be merged.
-Improvements to the API will be considered.
+Improvements to the API & bugfixes are very welcome :)
 Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ### Security
