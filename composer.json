@@ -2,7 +2,11 @@
     "name": "leuverink/blade-shape-divider",
     "description": "A blade component port of shapedivider.app",
     "keywords": [
-        "blade-shape-divider"
+        "blade-shape-divider",
+        "Laravel",
+        "Blade component",
+        "Shape divider",
+        "shapedivider.app"
     ],
     "homepage": "https://github.com/gwleuverink/blade-shape-divider",
     "license": "MIT",
