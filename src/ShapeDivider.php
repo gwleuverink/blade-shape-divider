@@ -35,6 +35,6 @@ class ShapeDivider extends Component
 
     public function render()
     {
-        return view('shape-divider::_layout');
+        return view('shape-divider::component');
     }
 }

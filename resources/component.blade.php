@@ -15,6 +15,6 @@
             {{ "width: calc($width + 1.3px);" }}
             {{ "height: $height;" }}
         ">
-        @include("shape-divider::$shape")
+        @include("shape-divider::shapes.$shape")
     </svg>
 </div>
