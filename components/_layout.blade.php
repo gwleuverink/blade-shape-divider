@@ -15,6 +15,6 @@
             {{ "width: calc($width + 1.3px);" }}
             {{ "height: $height;" }}
         ">
-        @yield('svg-content')
+        @include("shape-divider::$shape")
     </svg>
 </div>
