@@ -1,4 +1,4 @@
-![Top readme divider](./.github/assets/readme-top-divider.svg?raw=true&sanitize=true "Beautiful full width shape dividers without breaking a sweat. Ain't that tasty?")
+<p dir="auto"><a style="display: block;" target="_blank" rel="noopener noreferrer" href="/gwleuverink/blade-shape-divider/blob/master/.github/assets/readme-top-divider.svg?raw=true&amp;sanitize=true"><img src="/gwleuverink/blade-shape-divider/raw/master/.github/assets/readme-top-divider.svg?raw=true&amp;sanitize=true" alt="Top readme divider" title="Beautiful full width shape dividers without breaking a sweat. Ain't that tasty?" style="width: 100%;"></a></p>
 
 # Blade shape divider
 
